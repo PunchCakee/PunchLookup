@@ -1,2 +1,4 @@
 # PunchLookup
-This is an ip lookup tool that saves the outputs to a txt file, the only requirements are python 3.10 and installing the requests library 
+This is an ip lookup tool that takes ip's from a file and save all of the ips results in an output file, requiremnts are httpx and python 3.10.x 
+
+This tool was made for educational purposes only i am not responsible for any misuse using this or any other tool i have made.
