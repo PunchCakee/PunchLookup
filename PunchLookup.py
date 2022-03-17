@@ -33,6 +33,7 @@ async def main():
             if r.status_code == 429:
                 print(Fore.YELLOW + "Request limit exceeded, Sleeping for 1 min")
                 await asyncio.sleep(60)
-asyncio.run(main())
-f.close()
-inp.close()
+                
+ # main guard
+if __name__ == '__main__':
+    aysncio.run(main())
